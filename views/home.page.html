@@ -1,0 +1,7 @@
+{% extends "app.layout.html" %}
+
+{% block content %}
+  <h1>{{page.title}}</h1>
+  <p>Hello, world</p>
+  <button hx-get="/spice-up" hx-swap="outerHTML">Add some spice</button>
+{% endblock %}

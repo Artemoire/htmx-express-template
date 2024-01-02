@@ -1,0 +1,5 @@
+{% if not htmx.boosted %}
+  {% extends "home.layout.base.html" %}
+{% else %}
+  {% extends "home.layout.boosted.html" %}
+{% endif %}
